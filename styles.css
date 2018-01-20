@@ -57,8 +57,10 @@ main nav{
   flex:1 1 25%;
   order:0;
   justify-content: left;
-  overflow:hidden;
-}main article{
+  flex-direction: row;
+}
+main nav a{display:block;}
+main article{
   background:white;
   min-height:150px;
   flex: 3 2 50%;
@@ -77,9 +79,12 @@ main aside table{
     flex-direction:column;
   }
   main nav {
-    display:inline-table;
-    min-width:100vw;
-    flex-direction: column;}
+    flex-direction:column;
+    overflow: hidden;
+    display:flex;
+    flex:1 1 auto;
+    padding-bottom:2em;
+  }
   main article{order:0;}
 }
 table{
