@@ -5,7 +5,7 @@ loc[3]="Luncheon";
 loc[6]="No Meeting";
 loc[9]="Luncheon";
 for(var i=0;i<arr.length;i++){
-  loc[i]= loc[i]===undefined?'Maple Room': loc[i];
+  loc[i]= loc[i]===undefined?'Meeting Room': loc[i];
 }
 
 function createCalTable(d, l){

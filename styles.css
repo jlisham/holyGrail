@@ -76,10 +76,10 @@ main aside table{
   main{
     flex-direction:column;
   }
-  main div nav, main div aside {
+  main nav {
+    display:inline-table;
     min-width:100vw;
-  display: flex;
-  flex-direction: row;}
+    flex-direction: column;}
   main article{order:0;}
 }
 table{
@@ -115,7 +115,9 @@ footer{
   bottom:0;
   right:0;
   left:0;
-  min-width:100vw;
+  min-width:98vw;
   position: fixed;
   display: block;
+  margin-top:2px;
+  z-index:-1;
 }
