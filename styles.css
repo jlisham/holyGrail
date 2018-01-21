@@ -89,6 +89,7 @@ main aside table{
 }
 table{
   border-collapse:collapse;
+  min-width: 300px;
 }
 caption {
     font-size: 150%;
