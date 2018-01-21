@@ -83,7 +83,7 @@ main aside table{
     overflow: hidden;
     display:flex;
     flex:1 1 auto;
-    padding-bottom:2em;
+    padding-bottom:1.5em;
   }
   main article{order:0;}
 }
